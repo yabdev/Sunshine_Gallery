@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Photos Material Gallery</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Mono:400,300' rel='stylesheet' type='text/css'><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel="stylesheet" href="./app.css">
+
+</head>
+<body>
+<div class="m-p-g">
+    <div class="m-p-g__thumbs" data-google-image-layout data-max-height="350">
+        <img src="./Sunshine/B1.jpg" data-full="./Sunshine/B1.jpg" class="m-p-g__thumbs-img" />
+        <img src="./Sunshine/B17.jpg" data-full="./Sunshine/B17.jpg" class="m-p-g__thumbs-img" />
+        <img src="./Sunshine/B10.jpg" data-full="./Sunshine/B10.jpg" class="m-p-g__thumbs-img" />
+        <img src="./Sunshine/B9.jpg" data-full="./Sunshine/B9.jpg" class="m-p-g__thumbs-img" />
+        <img src="./Sunshine/B2.jpg" data-full="./Sunshine/B2.jpg" class="m-p-g__thumbs-img" />
+        <img src="./Sunshine/B4.jpg" data-full="./Sunshine/B4.jpg" class="m-p-g__thumbs-img" />
+        <img src="./Sunshine/B3.jpg" data-full="./Sunshine/B3.jpg" class="m-p-g__thumbs-img" />
+        <img src="./Sunshine/B8.jpg" data-full="./Sunshine/B8.jpg" class="m-p-g__thumbs-img" />
+        <img src="./Sunshine/B18.jpg" data-full="./Sunshine/B18.jpg" class="m-p-g__thumbs-img" />
+        <img src="./Sunshine/B20.jpg" data-full="./Sunshine/B20.jpg" class="m-p-g__thumbs-img" />
+        <img src="./Sunshine/B5.jpg" data-full="./Sunshine/B5.jpg" class="m-p-g__thumbs-img" />
+        <img src="./Sunshine/B16.jpg" data-full="./Sunshine/B16.jpg" class="m-p-g__thumbs-img" />
+        <img src="./Sunshine/B12.jpg" data-full="./Sunshine/B12.jpg" class="m-p-g__thumbs-img" />
+        <img src="./Sunshine/B22.jpg" data-full="./Sunshine/B22.jpg" class="m-p-g__thumbs-img" />
+        <img src="./Sunshine/B13.jpg" data-full="./Sunshine/B13.jpg" class="m-p-g__thumbs-img" />
+        <img src="./Sunshine/B21.jpg" data-full="./Sunshine/B21.jpg" class="m-p-g__thumbs-img" />
+        <img src="./Sunshine/B6.jpg" data-full="./Sunshine/B6.jpg" class="m-p-g__thumbs-img" />
+        <img src="./Sunshine/B9.jpg" data-full="./Sunshine/B9.jpg" class="m-p-g__thumbs-img" />
+        <img src="./Sunshine/B19.jpg" data-full="./Sunshine/B19.jpg" class="m-p-g__thumbs-img" />
+        <img src="./Sunshine/B7.jpg" data-full="./Sunshine/B7.jpg" class="m-p-g__thumbs-img" />
+    </div>
+
+    <div class="m-p-g__fullscreen"></div>
+</div>
+
+<script>
+    var elem = document.querySelector('.m-p-g');
+
+    document.addEventListener('DOMContentLoaded', function() {
+        var gallery = new MaterialPhotoGallery(elem);
+    });
+</script>
+<!-- partial -->
+  <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/45226/material-photo-gallery.min.js'></script>
+</body>
+</html>
